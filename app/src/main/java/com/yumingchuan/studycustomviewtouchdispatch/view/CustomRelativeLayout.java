@@ -29,17 +29,20 @@ public class CustomRelativeLayout extends RelativeLayout {
         Log.i("customView", "CustomRelativeLayout----->>dispatchTouchEvent::       " + ev.getAction());
 
         return super.dispatchTouchEvent(ev);
+//        return true;
     }
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         Log.i("customView", "CustomRelativeLayout----->>onInterceptTouchEvent::       " + ev.getAction());
         return super.onInterceptTouchEvent(ev);
+//        return true;
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         Log.i("customView", "CustomRelativeLayout----->>onTouchEvent::       " + event.getAction());
         return super.onTouchEvent(event);
+//        return true;
     }
 }

@@ -32,6 +32,7 @@ public class CustomView extends View {
         Log.i("customView", "CustomView----->>dispatchTouchEvent::       " + ev.getAction());
 
         return super.dispatchTouchEvent(ev);
+//        return true;
     }
 
 
@@ -39,6 +40,7 @@ public class CustomView extends View {
     public boolean onTouchEvent(MotionEvent event) {
         Log.i("customView", "CustomView----->>onTouchEvent::       " + event.getAction());
         return super.onTouchEvent(event);
+//        return true;
     }
 
 
