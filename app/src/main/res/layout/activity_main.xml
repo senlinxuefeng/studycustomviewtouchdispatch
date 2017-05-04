@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yumingchuan.studycustomviewtouchdispatch.view.CustomRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yumingchuan.studycustomviewtouchdispatch.view.CustomView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorAccent" />
+</com.yumingchuan.studycustomviewtouchdispatch.view.CustomRelativeLayout>
